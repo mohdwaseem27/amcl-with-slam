@@ -1,0 +1,7 @@
+<launch>  
+<node name="spawn_urf" pkg="gazebo_ros"
+        type="spawn_model" output="screen"
+        args="-file $(find sk)/urdf/world/model.sdf -sdf -model maze" />
+</launch>
+
+
